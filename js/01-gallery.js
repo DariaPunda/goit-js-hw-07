@@ -56,7 +56,7 @@ function openImage(evt) {
       height = 100%
     />
     `,
-        window.addEventListener('keydown', closeOnEsc));
+    window.addEventListener('keydown', closeOnEsc));
 
     function closeOnEsc(evt) {
     if (evt.code === 'Escape') {
